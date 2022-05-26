@@ -2659,7 +2659,9 @@ textarea.form-control-lg {
 }
 
 .form-floating {
-  position: relative;
+  margin: auto;
+    width: 30pc;
+    background-color: beige;
 }
 .form-floating > .form-control,
 .form-floating > .form-select {
@@ -11294,3 +11296,28 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+  .swapSEnd{
+    margin: auto;
+    font-family: cursive;
+    color: white;
+    font-size: inherit;
+    line-height: inherit;
+    margin: auto;
+    width: 30pc;
+    height: 6pc;
+    background: #000000;
+    border-radius: 1pc;
+  }
+  .swapREcive{
+    margin: auto;
+    font-family: cursive;
+    color: white;
+    font-size: inherit;
+    line-height: inherit;
+    margin: auto;
+    width: 30pc;
+    height: 6pc;
+    background: #000000;
+    border-radius: 1pc;
+
+  }
