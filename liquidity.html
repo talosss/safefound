@@ -3,6 +3,12 @@
 
 <head>
     <meta charset="utf-8" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -14,6 +20,33 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
+<style>
+    .form-check-input:checked {
+        background-color: #6c8dbe;
+        border-color: #18f026;
+    }
+    
+    .form-check-label {
+        color: green;
+    }
+    
+    .form-control {
+        float: right;
+        width: 350px;
+        height: 38px;
+        opacity: 0.5;
+        background: rgb(35, 37, 48) none repeat scroll 0% 0%;
+    }
+    
+    .fa-search {
+        background: rgb;
+        opacity: 0.5;
+    }
+    
+    .form-check-label {
+        padding-right: 3rem;
+    }
+</style>
 
 <body>
     <!-- Responsive navbar-->
@@ -35,21 +68,86 @@
     <header class="bg-dark py-5">
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="text-center my-5">
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/index.html">Transfer</a>
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/liquidity.html">Liquidity</a>
                         </div>
-                        <!-- <h1 class="display-5 fw-bolder text-white mb-2">Present your business in a whole new way</h1>
-                        <p class="lead text-white-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p> -->
+                        <br>
+                        <div class="row" style="margin-bottom:50px">
+                            <div class="col-12 col-sm-3 col-md-6 col-lg-3">50%</div>
+                            <div class="col-12 col-sm-3 col-md-6 col-lg-6 p-0">
+                                <button type="button" class="btn  btn-lg w-100 btn-primary">Connect Wallet</button>
+                            </div>
+                            <div class="col-12 col-sm-3 col-md-6 col-lg-3">50%</div>
+                        </div>
+                        <div class="row" style="margin-bottom:50px">
+                            <div class="col-12 col-sm-3 col-md-6 col-lg-4">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked style="float:right">
+                                    <label class="form-check-label" for="flexSwitchCheckChecked" style="float:left">Only Show My Position</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-3 col-md-6 col-lg-4"></div>
+                            <div class="col-12 col-sm-3 col-md-6 col-lg-4">
+                                <div class="input-group rounded">
+                                    <input type="search" class="form-control rounded" placeholder="Search by token name or chain name" aria-label="Search" aria-describedby="search-addon" />
+                                    <span class="input-group-text border-0" id="search-addon">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <table class="table table-sm table-dark ">
+                            <thead class="rounded border border-secondary">
+                                <tr>
+                                    <th scope="col">Token <i class="bi bi-arrow-down-up"></i></th>
+                                    <th scope="col">Chain <i class="bi bi-arrow-down-up"></i></th>
+                                    <th scope="col">Your Liquidity <i class="bi bi-arrow-down-up"></i></th>
+                                    <th scope="col">Total Liquidity <i class="bi bi-arrow-down-up"></i></th>
+                                    <th scope="col">Volume 24H <i class="bi bi-arrow-down-up"></i></th>
+                                    <th scope="col">APY <i class="bi bi-arrow-down-up"></i></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Add token</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Add token</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- <div class="row rounded border border-secondary" style="margin-bottom:50px">
+                            <div class="col-12 col-sm-3 col-md-1 col-lg-1" style="color:white;">Token <i class="bi bi-arrow-down-up"></i></div>
+                            <div class="col-12 col-sm-3 col-md-3 col-lg-3" style="color:white;">Chain <i class="bi bi-arrow-down-up"></i></div>
+                            <div class="col-12 col-sm-3 col-md-2 col-lg-2" style="color:white;">Your Liquidity <i class="bi bi-arrow-down-up"></i></div>
+                            <div class="col-12 col-sm-3 col-md-3 col-lg-3" style="color:white;">Total Liquidity <i class="bi bi-arrow-down-up"></i></div>
+                            <div class="col-12 col-sm-3 col-md-2 col-lg-2" style="color:white;">Volume 24H <i class="bi bi-arrow-down-up"></i></div>
+                            <div class="col-12 col-sm-3 col-md-1 col-lg-1" style="color:white;">APY <i class="bi bi-arrow-down-up"></i></div>
+                        </div> -->
 
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </header>
     <!-- Features section-->
+
 
     <!-- Footer-->
     <footer class="py-5 bg-dark">
