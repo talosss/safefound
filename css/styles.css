@@ -11296,34 +11296,82 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
-  .swapSEnd{
-    margin: auto;
-    font-family: cursive;
-    color: white;
-    font-size: inherit;
-    line-height: inherit;
-    margin: auto;
-    width: 30pc;
-    height: 6pc;
-    background: #000000;
-    border-radius: 1pc;
-  }
-  .swapREcive{
-    margin: auto;
-    font-family: cursive;
-    color: white;
-    font-size: inherit;
-    line-height: inherit;
-    margin: auto;
-    width: 30pc;
-    height: 6pc;
-    background: #000000;
-    border-radius: 1pc;
+.card-body {
+  width: 558px;
+  background: rgb(35, 37, 48);
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 19px;
+}
 
-  }
-  
-  .CajasSwap{
-    background-color: #0a58ca;
-    width: 700px;
-    height: 800px;
-  }
+.icon {
+  width: 24px;
+  /* height: 24px; */
+  /* margin-right: 2px; */
+  padding-right: 2px;
+  margin: 10px;
+}
+
+.eth-select {
+  font-size: 13px;
+  font-weight: 800;
+  padding-top: 10px
+}
+
+.from {
+  padding-top: 10px;
+  color: white;
+}
+
+.ruedita {
+  width: 20px;
+  height: 20px;
+  background-color: ;
+  margin-top: 15px;
+}
+
+.contenedor {
+  background-color: rgba(0, 0, 0, .85);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 19px;
+}
+
+.contenedor-2 {
+  padding: 20px;
+  border-radius: 19px;
+}
+
+.input-count {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 20px;
+  user-select: none;
+  font-weight: 900;
+}
+
+.input-count:focus {
+  background: none;
+}
+
+.textos {
+  color: rgb(143, 155, 179);
+  float: left;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+  img, svg {
+    vertical-align: middle;
+    float: right;
+}
+img, svg {
+  vertical-align: middle;
+  float: right;
+  color: white;
+  border-color: lightslategray;
+}
+.SWApet{
+  float: none;
+}

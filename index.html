@@ -9,78 +9,15 @@
     <title>Business Frontpage - Start Bootstrap Template</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!--font awesome icons-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Bootstrap icons-->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
-<style>
-    .card-body {
-        width: 558px;
-        background: rgb(35, 37, 48);
-        margin: auto;
-        margin-top: 200px;
-        border-radius: 19px;
-    }
-    
-    .icon {
-        width: 24px;
-        /* height: 24px; */
-        /* margin-right: 2px; */
-        padding-right: 2px;
-        margin: 10px;
-    }
-    
-    .eth-select {
-        font-size: 13px;
-        font-weight: 800;
-        padding-top: 10px
-    }
-    
-    .from {
-        padding-top: 10px;
-        color: white;
-    }
-    
-    .ruedita {
-        width: 20px;
-        height: 20px;
-        background-color: green;
-        margin-top: 15px;
-    }
-    
-    .contenedor {
-        background-color: rgba(0, 0, 0, .85);
-        padding: 10px;
-        margin: 20px;
-        border-radius: 19px;
-    }
-    
-    .contenedor-2 {
-        padding: 20px;
-        border-radius: 19px;
-    }
-    
-    .input-count {
-        background: none;
-        border: none;
-        padding: 0;
-        font-size: 20px;
-        user-select: none;
-    }
-    
-    .input-count:focus {
-        background: none;
-    }
-    
-    .textos {
-        color: rgb(143, 155, 179);
-        float: left;
-        font-size: 12px;
-        font-weight: 600;
-    }
-</style>
 
 <body>
     <!-- Responsive navbar-->
@@ -110,21 +47,26 @@
                         </div>
                         <div class="card-body border w-100">
                             <div class="row rounded">
-                                <div class="col-lg-6" style="background-color:yellow;">
+                                <div class="col-lg-6" style="">
                                     <div class="row">
-                                        <div class="col-lg-3" style="background-color:purple;">
+                                        <div class="col-lg-3" style="">
                                             <p class="from">From</p>
                                         </div>
-                                        <div class="col-lg-9 p-0" style="background-color:green;">
+                                        <div class="col-lg-9 p-0" style="">
                                             <button type="button" class="btn btn-dark h-100 w-100 rounded-lg p-0">
                                         <img class="icon float-left" src="https://get.celer.app/cbridge-icons/chain-icon/ETH.png">
+                                        <img class="float-rigth" src="https://cbridge.celer.network/static/media/arrow-D.4f2bb7a1.svg">
                                         <p class="eth-select">Ethereum Mainnet</p>
                                     </button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 p-0" style="background-color:orange;">
+                                <div class="col-lg-6 p-0" style="">
                                     <div class="ruedita float-right"></div>
+                                        <div style="cursor: pointer; position: relative;">
+                                            <i class="fa-solid fa-gear"></i>
+                                        </div>
+                                    
                                 </div>
                             </div>
                             <div class="contenedor">
@@ -140,35 +82,64 @@
                                 <div class="row contenedor-1">
                                     <div class="col-lg-9">
                                         <!-- <input type="text" placeholder="0.0"> -->
-                                        <input class="form-control input-count" type="text" placeholder="Default input">
+                                        <input class="form-control input-count" type="text" placeholder="0.01">
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="float-right">
                                             <div class="ruedita"></div>
-                                            DF
+                                            <div class="col-lg-9 p-0" style="">
+                                                <button type="button" class="btn btn-dark h-100 w-130 rounded-lg p-0">
+                                            <img class="float-rigth" src="https://cbridge.celer.network/static/media/arrow-D.4f2bb7a1.svg">
+                                            
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="icon-0-2-103 icon-d3-0-2-139">
+                                <img src="https://cbridge.celer.network/static/media/arrowupdown.963b18ea.svg" alt="arrow up down" width="32" style="cursor: pointer;"class="SWApet">
+                            </div>
+                            <br>
+                            <div class="row rounded">
+                                <div class="col-lg-6" style="">
+                                    <div class="row">
+                                        <div class="col-lg-3" style="">
+                                            <p class="from">To</p>
+                                        </div>
+                                        <div class="col-lg-9 p-0" style="">
+                                            <button type="button" class="btn btn-dark h-100 w-100 rounded-lg p-0">
+                                        <img class="icon float-left" src="https://get.celer.app/cbridge-icons/chain-icon/ETH.png">
+                                        <img class="float-rigth" src="https://cbridge.celer.network/static/media/arrow-D.4f2bb7a1.svg">
+                                        <p class="eth-select">Ethereum Mainnet</p>
+                                    </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
                             <div class="contenedor">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <p class="text-light textos">Send:</p>
+                                        <p class="text-light textos">Receive (estimated):</p>
                                     </div>
                                     <div class="col-lg-6">
-                                        <p class="text-light textos">Max:0</p>
+                                       
                                     </div>
                                 </div>
 
                                 <div class="row contenedor-1">
                                     <div class="col-lg-9">
                                         <!-- <input type="text" placeholder="0.0"> -->
-                                        <input class="form-control input-count" type="text" placeholder="Default input">
+                                        <input class="form-control input-count" type="text" placeholder="0.01">
+                                        
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="float-right">
                                             <div class="ruedita"></div>
-                                            DF
+                                            <div class="col-lg-9 p-0" style="">
+                                                <button type="button" class="btn btn-dark h-100 w-130 rounded-lg p-0">
+                                            <img class="float-rigth" src="https://cbridge.celer.network/static/media/arrow-D.4f2bb7a1.svg">
+                                            
                                         </div>
                                     </div>
                                 </div>
