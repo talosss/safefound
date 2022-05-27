@@ -65,10 +65,10 @@
         </div>
     </nav>
     <!-- Header-->
-    <header class="bg-dark py-5">
-        <div class="container px-5">
+    <header class="bg-dark py-0">
+        <div class="container px-6">
             <div class="row gx-5 justify-content-center">
-                <div class="col-lg-12">
+                <div class="col-lg-12 col-md-w-100">
                     <div class="text-center my-5">
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/index.html">Transfer</a>
@@ -76,17 +76,19 @@
                         </div>
                         <br>
                         <div class="row" style="margin-bottom:50px">
-                            <div class="col-12 col-sm-3 col-md-6 col-lg-3">50%</div>
+                            <div class="col-12 col-sm-3 col-md-6 col-lg-3"></div>
                             <div class="col-12 col-sm-3 col-md-6 col-lg-6 p-0">
                                 <button type="button" class="btn  btn-lg w-100 btn-primary">Connect Wallet</button>
                             </div>
-                            <div class="col-12 col-sm-3 col-md-6 col-lg-3">50%</div>
+                            <div class="col-12 col-sm-3 col-md-6 col-lg-3"></div>
                         </div>
                         <div class="row" style="margin-bottom:50px">
                             <div class="col-12 col-sm-3 col-md-6 col-lg-4">
                                 <div class="form-check form-switch">
                                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked style="float:right">
-                                    <label class="form-check-label" for="flexSwitchCheckChecked" style="float:left">Only Show My Position</label>
+                                    <label class="form-check-label" for="flexSwitchCheckChecked"> <p class="onlyS"> Only Show My Position</p>
+                                     
+                                    </label>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-3 col-md-6 col-lg-4"></div>
@@ -99,37 +101,41 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="row" style="margin-bottom:50px"></div>
+                        <div class="col-12 col-sm-3 col-md-100 col-lg-12">
+                            <table class="table table-sm table-dark ">
+                                <thead class="rounded border border-secondary">
+                                    <tr>
+                                        <th scope="col">Token <i class="bi bi-arrow-down-up"></i></th>
+                                        <th scope="col">Chain <i class="bi bi-arrow-down-up"></i></th>
+                                        <th scope="col">Your Liquidity <i class="bi bi-arrow-down-up"></i></th>
+                                        <th scope="col">Total Liquidity <i class="bi bi-arrow-down-up"></i></th>
+                                        <th scope="col">Volume 24H <i class="bi bi-arrow-down-up"></i></th>
+                                        <th scope="col">APY <i class="bi bi-arrow-down-up"></i></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Add token</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Add token</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
-                        <table class="table table-sm table-dark ">
-                            <thead class="rounded border border-secondary">
-                                <tr>
-                                    <th scope="col">Token <i class="bi bi-arrow-down-up"></i></th>
-                                    <th scope="col">Chain <i class="bi bi-arrow-down-up"></i></th>
-                                    <th scope="col">Your Liquidity <i class="bi bi-arrow-down-up"></i></th>
-                                    <th scope="col">Total Liquidity <i class="bi bi-arrow-down-up"></i></th>
-                                    <th scope="col">Volume 24H <i class="bi bi-arrow-down-up"></i></th>
-                                    <th scope="col">APY <i class="bi bi-arrow-down-up"></i></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">Add token</th>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Add token</th>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        </div>
+
 
                         <!-- <div class="row rounded border border-secondary" style="margin-bottom:50px">
                             <div class="col-12 col-sm-3 col-md-1 col-lg-1" style="color:white;">Token <i class="bi bi-arrow-down-up"></i></div>

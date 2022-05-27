@@ -11,9 +11,76 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
+<style>
+    .card-body {
+        width: 558px;
+        background: rgb(35, 37, 48);
+        margin: auto;
+        margin-top: 200px;
+        border-radius: 19px;
+    }
+    
+    .icon {
+        width: 24px;
+        /* height: 24px; */
+        /* margin-right: 2px; */
+        padding-right: 2px;
+        margin: 10px;
+    }
+    
+    .eth-select {
+        font-size: 13px;
+        font-weight: 800;
+        padding-top: 10px
+    }
+    
+    .from {
+        padding-top: 10px;
+        color: white;
+    }
+    
+    .ruedita {
+        width: 20px;
+        height: 20px;
+        background-color: green;
+        margin-top: 15px;
+    }
+    
+    .contenedor {
+        background-color: rgba(0, 0, 0, .85);
+        padding: 10px;
+        margin: 20px;
+        border-radius: 19px;
+    }
+    
+    .contenedor-2 {
+        padding: 20px;
+        border-radius: 19px;
+    }
+    
+    .input-count {
+        background: none;
+        border: none;
+        padding: 0;
+        font-size: 20px;
+        user-select: none;
+    }
+    
+    .input-count:focus {
+        background: none;
+    }
+    
+    .textos {
+        color: rgb(143, 155, 179);
+        float: left;
+        font-size: 12px;
+        font-weight: 600;
+    }
+</style>
 
 <body>
     <!-- Responsive navbar-->
@@ -32,30 +99,59 @@
         </div>
     </nav>
     <!-- Header-->
-    <header class="bg-dark py-5">
-        <div class="container px-5">
+    <header class="bg-dark py-0">
+        <div class="container px-0">
             <div class="row gx-5 justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="text-center my-5">
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/index.html">Transfer</a>
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/liquidity.html">Liquidity</a>
                         </div>
-                        <section class="py-5 border-bottom" id="features">
-                            <div class="swapSEnd">
-                                <input class="swapSEnd" type="text" placeholder="0.0">
+                        <div class="card-body">
+                            <div class="row rounded">
+                                <div class="col-lg-6" style="background-color:yellow;">
+                                    <div class="row">
+                                        <div class="col-lg-3" style="background-color:purple;">
+                                            <p class="from">From</p>
+                                        </div>
+                                        <div class="col-lg-9 p-0" style="background-color:green;">
+                                            <button type="button" class="btn btn-dark h-100 w-100 rounded-lg p-0">
+                                        <img class="icon float-left" src="https://get.celer.app/cbridge-icons/chain-icon/ETH.png">
+                                        <p class="eth-select">Ethereum Mainnet</p>
+                                    </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 p-0" style="background-color:orange;">
+                                    <div class="ruedita float-right"></div>
+                                </div>
                             </div>
-                            <br>
-                            <br>
-                            <div class="swapREcive">
-                                <input class="swapREcive" type="text" placeholder="0.0">
+                            <div class="contenedor">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <p class="text-light textos">Send:</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p class="text-light textos">Max:0</p>
+                                    </div>
+                                </div>
+
+                                <div class="row contenedor-1">
+                                    <div class="col-lg-9">
+                                        <!-- <input type="text" placeholder="0.0"> -->
+                                        <input class="form-control input-count" type="text" placeholder="Default input">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="float-right">
+                                            <div class="ruedita"></div>
+                                            DF
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
                     </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-        </div>
     </header>
 
     <!-- Footer-->
