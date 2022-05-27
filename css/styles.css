@@ -11308,22 +11308,89 @@ textarea.form-control-lg {
     background: #000000;
     border-radius: 1pc;
   }
-  .swapREcive{
+  .card-body{
+    width: 558px;
+    background: rgb(35, 37, 48);
+    
     margin: auto;
-    font-family: cursive;
+    margin-top: 200px;
+    border-radius: 19px;
+}
+.icon{
+    width: 24px;
+    /* height: 24px; */
+    /* margin-right: 2px; */
+    padding-right: 2px;
+    margin: 10px;
+}
+.eth-select{
+    font-size: 13px;
+    font-weight: 800;
+    padding-top: 10px
+    
+}
+.from {
+    padding-top: 10px;
     color: white;
-    font-size: inherit;
-    line-height: inherit;
-    margin: auto;
-    width: 30pc;
-    height: 6pc;
-    background: #000000;
-    border-radius: 1pc;
+}
+.ruedita {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    margin-top: 15px;
+    
+}
+.contenedor{
+    background-color: rgba(0,0,0,.85);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 19px;
+}
+.contenedor-2{
+    padding: 20px;
+    border-radius: 19px;
+}
+.input-count{
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    user-select:none;
+}
+.input-count:focus{
+    background: none;
+}
+.textos {
+    color: rgb(143, 155, 179);
+    float: left;
+    font-size: 12px;
+    font-weight: 600;
+}
 
-  }
-  
-  .CajasSwap{
-    background-color: #0a58ca;
-    width: 700px;
-    height: 800px;
-  }
+.ant-avatar>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.ant-layout, .ant-layout * {
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.ant-avatar-sm {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+}
