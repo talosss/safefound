@@ -36,6 +36,15 @@
     border: 2px solid darkblue;
 }
 
+.logoSF {
+    width: 37px;
+    height: 37px;
+}
+
+.botonCW {
+    border-radius: 19px;
+}
+
 
 /* .cardCW > div:hover {
         border: 2px solid blue;
