@@ -1,0 +1,42 @@
+/* .btnLink {
+    align-items: center;
+} */
+
+.form-check-input:checked {
+    background-color: #18f026;
+    border-color: #18f026;
+}
+
+.form-check-label {
+    color: green;
+}
+
+.form-control {
+    float: right;
+    width: 350px;
+    height: 38px;
+    opacity: 0.5;
+    background: rgb(35, 37, 48) none repeat scroll 0% 0%;
+}
+
+.fa-search {
+    background: rgb;
+    opacity: 0.5;
+}
+
+.form-check-label {
+    padding-right: 3rem;
+}
+
+.walletImg {
+    width: 30px;
+}
+
+.cardCW div:hover {
+    border: 2px solid darkblue;
+}
+
+
+/* .cardCW > div:hover {
+        border: 2px solid blue;
+    } */
