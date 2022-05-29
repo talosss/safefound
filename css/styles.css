@@ -3031,14 +3031,14 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #3cc1ca;
+  border-color: #000102;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3247,8 +3247,8 @@ textarea.form-control-lg {
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
+  background-color: #3cc1ca;
+  border-color: #000102;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
@@ -4474,15 +4474,17 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-dark .navbar-brand {
+.navbar-dark {
   color: #fff;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgb(255 255 255 / 88%);
+  font-weight: 800;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
 }
@@ -11326,8 +11328,8 @@ textarea.form-control-lg {
 .ruedita {
   width: 20px;
   height: 20px;
-  background-color: ;
-  margin-top: 15px;
+  background-color: 
+  margin-top 15px;
 }
 
 .contenedor {
@@ -11375,4 +11377,17 @@ img, svg {
 .SWApet{
   float: none;
 }
+.navbar-brand img {
+  width: 35px;
+  height: 35px;
+}
+.svg-inline--fa {
+  display: var(--fa-display,inline-block);
+  height: 2em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
 
+#card-bodyss2{
+  display: none;
+}
