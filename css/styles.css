@@ -3791,6 +3791,7 @@ textarea.form-control-lg {
 
 .dropdown-menu.show {
   display: block;
+  background-color: dimgrey;
 }
 
 .dropdown-header {
@@ -11390,4 +11391,19 @@ img, svg {
 
 #card-bodyss2{
   display: none;
+}
+#cajaswap{
+  /*cambios de displays*/
+  
+}
+
+#addtoken{
+  display: none;
+}
+
+#conectwallet{
+  display: none;
+}
+.dropdown{
+  background-color: ;
 }
