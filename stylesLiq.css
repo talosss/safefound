@@ -1,57 +1,58 @@
-.form-check-input:checked {
-    background-color: #18f026;
-    border-color: #18f026;
-}
-
-.form-check-label {
-    color: green;
-}
-
-.searchF {
-    float: right;
-    width: 350px;
-    height: 38px;
-    opacity: 0.5;
-    background: rgb(35, 37, 48) none repeat scroll 0% 0%;
-}
-
-.fa-search {
-    background: rgb;
-    opacity: 0.5;
-}
-
-.checkLabel {
-    padding-right: 3rem;
-}
-
-.walletImg {
-    width: 30px;
-}
-
-.cardCW div:hover {
-    border: 2px solid darkblue;
-}
-
-.logoSF {
-    width: 37px;
-    height: 37px;
-}
-
-.botonCW {
-    border-radius: 19px;
-}
-
-.btnN:hover {
-    color: #fff;
-    background-color: #3cc1ca;
-    border-color: #000102;
-}
-
-.slipPage:hover {
-    color: #fff;
-    background-color: #3cc1ca;
-    border-color: #000102;
-}
-
-.inputTT::placeholder {
-    color: #fff;
+    .form-check-input:checked {
+        background-color: #18f026;
+        border-color: #18f026;
+    }
+    
+    .form-check-label {
+        color: green;
+    }
+    
+    .searchF {
+        float: right;
+        width: 350px;
+        height: 38px;
+        opacity: 0.5;
+        background: rgb(35, 37, 48) none repeat scroll 0% 0%;
+    }
+    
+    .fa-search {
+        background: rgb;
+        opacity: 0.5;
+    }
+    
+    .checkLabel {
+        padding-right: 3rem;
+    }
+    
+    .walletImg {
+        width: 30px;
+    }
+    
+    .cardCW div:hover {
+        border: 2px solid darkblue;
+    }
+    
+    .logoSF {
+        width: 37px;
+        height: 37px;
+    }
+    
+    .botonCW {
+        border-radius: 19px;
+    }
+    
+    .btnN:hover {
+        color: #fff;
+        background-color: #3cc1ca;
+        border-color: #000102;
+    }
+    
+    .slipPage:hover {
+        color: #fff;
+        background-color: #3cc1ca;
+        border-color: #000102;
+    }
+    
+    .inpTT::placeholder {
+        color: #fff;
+    }
