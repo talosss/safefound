@@ -4,8 +4,6 @@
 <head>
     <meta charset="utf-8" />
     <!-- Font Awesome -->
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -29,7 +27,9 @@
         <div class="container px-5">
             <a class="navbar-brand" href="#!"> <img class="logoSF me-3" src="assets/iconsafefoun.png" alt="width 35px height 35px"></a>
             <a class="navbar-brand" href="#!">Safe-Found</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#!"><i class="fa-brands fa-telegram"></i></a></li>
@@ -40,61 +40,91 @@
             </div>
         </div>
     </nav>
+
+
     <!-- Header-->
     <header class="bg-dark bg-gradient py-0">
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-7">
                     <div class="text-center my-5">
+                        <a class="btn btn-primary btn-lg px-4 me-sm-3" href="index.html">Transfer</a>
+                        <a class="btn btn-dark btn-lg px-4 me-sm-3 m-2" href="liquidity.html">Liquidity</a>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="index.html">Transfer</a>
-                            <a class="btn btn-dark btn-lg px-4 me-sm-3" href="liquidity.html">Liquidity</a>
+                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="index.html">Buy On Pankeswap</a>
+                            <a class="btn btn-dark btn-lg px-4 me-sm-3" href="liquidity.html">Poocoin Chart</a>
                         </div>
-                        <div class="card-body border w-100">
-                            <div class="row rounded">
-                                <div class="col-lg-6" style="">
-                                    <div class="row">
-                                        <div class="col-lg-3" style="">
-                                            <p class="from">From</p>
+
+                        <!--Click Config %-->
+                        <div class="card-body p-0 m-2" style="display:none;">
+                            <div class="row justify-content-center">
+                                <!-- <div class="col-12  col-lg-3 bg-dark"></div> -->
+                                <div class="col-6  col-lg-12 ">
+                                    <div class="row bg-dark border botonCW">
+                                        <div class="col-12 m-3 col-lg-11" style="color: white;">Slippage Tolerance
+                                            <button class="btn-dark" style="float:right;color:red">X</button>
                                         </div>
-                                        
-                                        <div class="col-lg-9 p-0" style="">
-                                            <button type="button" class="btn btn-dark h-100 w-100 rounded-lg p-0" onclick="mostrando();">
+                                        <div class="row ">
+                                            <div class="slipPage border btn btn-dark col-12 py-2 m-2 col-lg-2 botonCW h-20 " style="text-align: center;color:white;">0.3%</div>
+                                            <div class="slipPage border btn btn-dark col-12 m-2 py-2 col-lg-2 botonCW h-20" style="text-align: center;color:white;">0.5%</div>
+                                            <div class="slipPage border btn btn-dark col-12 m-2 py-2 col-lg-2 botonCW" style="text-align: center; color:white;">1%</div>
+                                            <div class=" col-12 ms-2 p-0 col-lg-3 m-2 botonCW justify-content-center" style="text-align: center;"> <input class="inputTT botonCW bg-dark h-100" placeholder="Add-%" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 col-lg-3 bg-dark"></div> -->
+                        </div>
+                    </div>
+
+
+                    <!--Swapage-->
+                    <div class="card-body border w-100 m-0">
+                        <div class="row rounded">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p class="from">From</p>
+                                    </div>
+
+                                    <div class="col-lg-9 p-0">
+                                        <button type="button" class="btn btn-dark h-100 w-100 rounded-lg p-0" onclick="mostrando();">
                                         <img class="icon float-left" src="https://get.celer.app/cbridge-icons/chain-icon/ETH.png">
                                         <img class="float-rigth" src="https://cbridge.celer.network/static/media/arrow-D.4f2bb7a1.svg">
                                         <p class="eth-select">Ethereum Mainnet</p>
                                     </button>
-                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6  p-0" style="">
-                                    <div class="ruedita float-right"></div>
-                                    <div style="cursor: pointer; position: relative;">
-                                        <i class="fa-solid fa-gear"></i>
-                                    </div>
-
                                 </div>
                             </div>
-                            <div class="contenedor">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <p class="text-light textos">Send:</p>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <p class="text-light textos">Max:0</p>
-                                    </div>
+                            <div class="col-lg-6  p-0">
+                                <div class="ruedita float-right"></div>
+                                <div style="cursor: pointer; position: relative;">
+                                    <i class="fa-solid fa-gear"></i>
                                 </div>
-                                    
-                                <div class="row contenedor-1">
-                                    <div class="col-lg-9">
-                                        <!-- <input type="text" placeholder="0.0"> -->
-                                        <input class="form-control input-count" type="text" placeholder="0.01">
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="float-right">
-                                            <div class="ruedita"></div>
-                                            <div class="col-lg-9 p-0" style="">
-                                                <button type="button" class="btn btn-dark h-100 w-130 rounded-lg p-0">
+
+                            </div>
+                        </div>
+                        <div class="contenedor">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <p class="text-light textos">Send:</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="text-light textos">Max:0</p>
+                                </div>
+                            </div>
+
+                            <div class="row contenedor-1">
+                                <div class="col-lg-9">
+                                    <!-- <input type="text" placeholder="0.0"> -->
+                                    <input class="form-control input-count" type="text" placeholder="0.01">
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="float-right">
+                                        <div class="ruedita"></div>
+                                        <div class="col-lg-9 p-0">
+                                            <button type="button" class="btn btn-dark h-100 w-130 rounded-lg p-0">
                                             <img class="" src="https://cbridge.celer.network/static/media/arrow-D.4f2bb7a1.svg">
                                             
                                         </div>
@@ -107,44 +137,44 @@
                             </div>
                             <br>
                             <div class="row rounded">
-                                <div class="col-lg-6" style="">
+                                <div class="col-lg-6">
                                     <div class="row">
-                                        <div class="col-lg-3" style="">
+                                        <div class="col-lg-3">
                                             <p class="from">To</p>
                                         </div>
-                                        <div class="col-lg-9 p-0" style="">
+                                        <div class="col-lg-9 p-0">
                                             <button  type="button" class="btn btn-dark h-100 w-100 rounded-lg p-0" onclick="mostrando();">
                                         <img class="icon float-left" src="https://get.celer.app/cbridge-icons/chain-icon/ETH.png">
                                         <img class="float-rigth" src="https://cbridge.celer.network/static/media/arrow-D.4f2bb7a1.svg">
                                         <p class="eth-select">Ethereum Mainnet</p>
                                     </button>
-                                            </div>
                                         </div>
                                     </div>
-
-
                                 </div>
-                                <div class="contenedor">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <p class="text-light textos">Receive (estimated):</p>
-                                        </div>
-                                        <div class="col-lg-6">
-                                           
-                                        </div>
+
+
+                            </div>
+                            <div class="contenedor">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <p class="text-light textos">Receive (estimated):</p>
                                     </div>
-    
-                                    <div class="row contenedor-1">
-                                        <div class="col-lg-9">
-                                            <!-- <input type="text" placeholder="0.0"> -->
-                                            <input class="form-control input-count" type="text" placeholder="0.01">
-                                            
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="float-right">
-                                                <div class="ruedita"></div>
-                                                <div class="col-lg-9 p-0" style="">
-                                                    <button type="button" class="btn btn-dark h-100 w-130 rounded-lg p-0">
+                                    <div class="col-lg-6">
+
+                                    </div>
+                                </div>
+
+                                <div class="row contenedor-1">
+                                    <div class="col-lg-9">
+                                        <!-- <input type="text" placeholder="0.0"> -->
+                                        <input class="form-control input-count" type="text" placeholder="0.01">
+
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="float-right">
+                                            <div class="ruedita"></div>
+                                            <div class="col-lg-9 p-0" style="">
+                                                <button type="button" class="btn btn-dark h-100 w-130 rounded-lg p-0">
                                                 <img class="float-rigth" src="https://cbridge.celer.network/static/media/arrow-D.4f2bb7a1.svg">
                                             </div>
                                         </div>
@@ -152,22 +182,22 @@
                                 </div>
                             </div>
                             <button type="button" class="btn  btn-lg w-100 btn-primary">Connect Wallet</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
 
     </header>
     <!-- divs de swaps-->
     <section class="">
         <div>
-            <img  src="assets/safe-foud.png" alt="" class="safoundimg" width="1600px">
+            <img src="assets/safe-foud.png" alt="" class="safoundimg" width="1600px">
         </div>
 
     </section>
-    
+
     <!-- Pricing section-->
 
 
@@ -186,6 +216,12 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+
+
+
+    <!--Select Destination Chain-->
     <div class="card-bodyoneclicselec" id="card-bodyss2">
         <div class="row rounded justify-content-center">
             <!-- <div class="col-12 col-lg-3 bg-dark"></div> -->

@@ -11,7 +11,7 @@
     color: green;
 }
 
-.form-control {
+.searchF {
     float: right;
     width: 350px;
     height: 38px;
@@ -24,7 +24,7 @@
     opacity: 0.5;
 }
 
-.form-check-label {
+.checkLabel {
     padding-right: 3rem;
 }
 
@@ -45,6 +45,21 @@
     border-radius: 19px;
 }
 
+.btnN:hover {
+    color: #fff;
+    background-color: #3cc1ca;
+    border-color: #000102;
+}
+
+.slipPage:hover {
+    color: #fff;
+    background-color: #3cc1ca;
+    border-color: #000102;
+}
+
+.inputTT::placeholder {
+    color: #fff;
+}
 
 
 /* .cardCW > div:hover {
