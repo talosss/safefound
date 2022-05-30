@@ -5253,9 +5253,15 @@ fieldset:disabled .btn {
     border-bottom-left-radius: 0.25rem;
 }
 
+
 .page-item:last-child .page-link {
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
+
+.dropdown-menu.show {
+  display: block;
+  background-color: dimgrey;
+
 }
 
 .pagination-lg .page-link {
@@ -11214,4 +11220,22 @@ svg {
     display: none;
 }
 
+
 .btn-primary {}
+
+#cajaswap{
+  /*cambios de displays*/
+  
+}
+
+#addtoken{
+  display: none;
+}
+
+#conectwallet{
+  display: none;
+}
+.dropdown{
+  background-color: ;
+}
+
